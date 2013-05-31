@@ -32,3 +32,6 @@ branch_color ()
 }
 
 export PS1='\u@\h\[${c_sgr0}\]:\W\[${c_sgr0}\] (\[$(branch_color)\]$(parse_git_branch)\[${c_sgr0}\])\$ '
+
+#Alias ls -alh
+alias "ll=ls -alh"
