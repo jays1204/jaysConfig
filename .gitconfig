@@ -1,0 +1,8 @@
+[alias]
+	graph = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate
+	chk = checkout
+	st = status
+[user]
+	name = jays
+[core]
+	editor = vim
