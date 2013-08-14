@@ -1,8 +1,10 @@
 [alias]
 	graph = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate
 	chk = checkout
-	st = status
+        st = status
+        stat = log --since=1.weeks --author=jays --oneline
 [user]
 	name = jays
+	email = jays.woo@sk.com
 [core]
 	editor = vim
