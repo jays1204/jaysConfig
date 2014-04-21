@@ -33,6 +33,23 @@ branch_color ()
 
 export PS1='\u@\h\[${c_sgr0}\]:\W\[${c_sgr0}\] (\[$(branch_color)\]$(parse_git_branch)\[${c_sgr0}\])\$ '
 
+#set GRADLE_HOME
+export GRADLE_HOME=/usr/local/gradle
+
+#set JAVA_ENV
+export JAVA_HOME=/usr/local/jdk1.7.0_51
+
+#set ANT_HOME
+export ANT_HOME=/usr/share/ant
+
+#set mysql_path
+export MYSQL_PATH=/usr/local/mysql
+export PATH=$PATH:$ANT_HOME/bin:$JAVA_HOME/bin:$MYSQL_PATH/bin:$GRADLE_HOME/bin
+
 #Alias ls -alh
 alias "ll=ls -alh"
 alias "st=git status"
+
+#Load Git auto completion
+source ~/.git-completion.sh
+source ~/.git-flow-completion.sh
