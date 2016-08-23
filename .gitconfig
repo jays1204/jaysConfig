@@ -3,8 +3,9 @@
 	chk = checkout
         st = status
         stat = log --since=1.weeks --author=jays --oneline
+        diff = diff --color-words
 [user]
 	name = jays
-	email = jays.woo@sk.com
+	email = realjays1204@gmail.com
 [core]
 	editor = vim
