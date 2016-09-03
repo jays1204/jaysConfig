@@ -1,11 +1,15 @@
 [alias]
-	graph = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate
-	chk = checkout
-        st = status
-        stat = log --since=1.weeks --author=jays --oneline
-        diff = diff --color-words
+  graph = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate
+  chk = checkout
+  st = status
+  stat = log --since=1.weeks --author=jays --oneline
+  diff = diff --color-words
 [user]
-	name = jays
-	email = realjays1204@gmail.com
+  name = jays
+  email = realjays1204@gmail.com
 [core]
-	editor = vim
+  editor = vim
+
+[color "diff"]
+  old = red strike
+  new = green italic
