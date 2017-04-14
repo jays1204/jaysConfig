@@ -9,7 +9,7 @@ cp .git-flow-completion.zsh ~/.git-flow-completion.zsh
 cp .zshrc ~/.zshrc
 
 # key repeat 
-defaults write NSGlobalDomain KeyRepeat -float 1.7
+defaults write NSGlobalDomain KeyRepeat -float 1.8
 defaults write NSGlobalDomain InitialKeyRepeat -int 13
 
 source ~/.bashrc
