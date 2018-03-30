@@ -12,4 +12,7 @@ cp .zshrc ~/.zshrc
 defaults write NSGlobalDomain KeyRepeat -float 1.8
 defaults write NSGlobalDomain InitialKeyRepeat -int 13
 
+mkdir -p ~/Utils/script
+
+cp ./revertGit.sh ~/Utils/script/
 source ~/.bashrc

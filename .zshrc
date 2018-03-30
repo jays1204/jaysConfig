@@ -104,3 +104,6 @@ alias "lst=lsof -iTCP -sTCP:LISTEN -n -P"
 alias cpwd="pwd | tr -d '\n' | pbcopy"
 
 eval "$(thefuck --alias)"
+
+alias "cleanBranch=git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d"
+alias "revertGit=~/Utils/scripts/revertGit.sh"
