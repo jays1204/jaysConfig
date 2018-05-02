@@ -105,5 +105,6 @@ alias cpwd="pwd | tr -d '\n' | pbcopy"
 
 eval "$(thefuck --alias)"
 
-alias "cleanBranch=git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d"
-alias "revertGit=~/Utils/scripts/revertGit.sh"
+# clean merged branch
+alias "revertGit=/Users/jays/Utils/scripts/revertGit.sh"
+alias "cleanBrach=/Users/jays/Utils/scripts/cleanBranch.sh"
