@@ -5,7 +5,7 @@ function cleanUpMergedBranch() {
   git fetch -p
   git fetch --all
 
-  CRITERIA_BRANCH="dev master"
+  CRITERIA_BRANCH="main"
 
   for criteria in ${CRITERIA_BRANCH[@]}
   do

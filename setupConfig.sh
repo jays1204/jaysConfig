@@ -8,11 +8,12 @@ cp .git-flow-completion.sh ~/.git-flow-completion.sh
 cp .git-flow-completion.zsh ~/.git-flow-completion.zsh
 cp .zshrc ~/.zshrc
 
-# key repeat 
+# key repeat
 defaults write NSGlobalDomain KeyRepeat -float 1.8
 defaults write NSGlobalDomain InitialKeyRepeat -int 13
 
 mkdir -p ~/Utils/script
 
 cp ./revertGit.sh ~/Utils/script/
+cp ./cleanBranch.sh ~/Utils/script/
 source ~/.bashrc
