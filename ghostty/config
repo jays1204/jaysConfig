@@ -1,0 +1,21 @@
+theme = iTerm2 Solarized Dark
+background-blur-radius = 15
+window-padding-x = 10
+window-padding-y = 10
+
+font-family = "Noto Mono for Powerline"
+font-family = "Noto Sans CJK KR"
+# https://formulae.brew.sh/cask/font-noto-sans-cjk-kr
+font-family = "MesloLGS NF"
+font-size = 13
+
+# 포커스의 기준 = 커서
+cursor-style = block
+cursor-style-blink = true
+
+# pane 경계 인지 보조
+background-opacity = 0.92
+
+# macOS 네이티브 포커스 활용
+window-decoration = true
+

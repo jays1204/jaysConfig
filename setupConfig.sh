@@ -17,3 +17,7 @@ mkdir -p ~/Utils/script
 cp ./revertGit.sh ~/Utils/script/
 cp ./cleanBranch.sh ~/Utils/script/
 source ~/.bashrc
+
+# copy ghostty config
+mkdir ~/.config
+cp -r ghostty ~/.config/ghostty
