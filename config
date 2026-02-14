@@ -35,3 +35,7 @@ macos-option-as-alt = false
 unfocused-split-opacity = 0.4
 
 split-divider-color = #b58900
+
+term = xterm-256color
+
+keybind = cmd+shift+t=prompt_surface_title
